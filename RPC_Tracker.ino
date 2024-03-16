@@ -39,10 +39,12 @@ float batt = 0;
 const int SCLpin = D1;
 const int SDApin = D2;
 /****************************************************************/
-#define WIFI_AP "CPH1609"
-#define WIFI_PASSWORD "12345678"
+// Change the AP name and password with yours
+#define WIFI_AP "AP_NAME" 
+#define WIFI_PASSWORD "AP_PASS"
 
-#define TOKEN "lF6tQt3iRMfwtYizqCFY"
+// Change with your thingsboard.io token
+#define TOKEN "THINGSBOARD_TOKEN"
 
 char thingsboardServer[] = "demo.thingsboard.io";
 
